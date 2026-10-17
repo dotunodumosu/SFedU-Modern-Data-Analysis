@@ -1,4 +1,4 @@
-# SFedU — Modern Data Analysis
+# SFedU - Modern Data Analysis
 
 ## Overview
 
