@@ -1,0 +1,101 @@
+## Short introduction
+
+“Good morning, Professor. My assignment covers 14 Python programming exercises. The aim was to practise basic programming concepts such as variables, mathematical operations, conditional statements, loops, functions, strings, lists, dictionaries, sets, and regular expressions. 
+
+I will briefly explain the approach I used for each task.”
+
+## Step-by-step explanation of Tasks 1–14
+
+### Task 1 — Sum the digits of a three-digit number
+
+I used integer division and the modulo operator to extract the hundreds, tens, and units digits. I then added the three digits together.
+
+Key idea: Breaking a number into individual digits using arithmetic operations.
+
+### Task 2 — Compute mathematical formulas
+
+I used Python’s `math` module to calculate the required mathematical expressions. I collected the input values, calculated the discriminant where necessary, and evaluated the formulas.
+
+Key idea: Translating mathematical formulas into Python code while handling conditions and mathematical functions.
+
+### Task 3 — Guess-the-number game
+
+I used Python’s random-number generator to select a secret number. The user enters guesses, and conditional statements tell them whether the guess is too high or too low until the correct number is found.
+
+Key idea: Combining random numbers, user input, conditions, and repetition to create an interactive program.
+
+### Task 4 — Check whether a number contains 0 or 5
+
+I treated the entered number as a string and checked whether it contained either the character `0` or `5`. The program then displays the appropriate message.
+
+Key idea: Using string membership checks to identify specific digits.
+
+### Task 5 — Count four-digit numbers containing 0
+
+I used a loop to examine four-digit numbers and check whether each number contains at least one zero. I maintained a counter and increased it whenever a number met the condition.
+
+Key idea: Applying iteration, conditional checking, and counting to solve a numerical problem.
+
+### Task 6 — Return the sum and product of three numbers
+
+I defined a function that accepts three numbers, calculates their sum and product, and returns both results. I then called the function and displayed the returned values.
+
+Key idea: Using functions to organize reusable calculations and return multiple results.
+
+### Task 7 — Reverse a string and remove its first character
+
+I used Python slicing. The slice `[::-1]` reverses a string, while `[1:]` selects the string starting from the second character, thereby removing the first character.
+
+Key idea: Manipulating strings efficiently without writing a manual loop.
+
+### Task 8 — Replace tabs and newlines and remove punctuation
+
+I replaced tab and newline characters with spaces, removed punctuation using Python’s `string` module and `translate()`, and used `split()` and `join()` to remove unnecessary spaces.
+
+Key idea: Cleaning text so that it becomes more consistent and easier to process.
+
+### Task 9 — Remove all maximum elements from a list
+
+I first identified the largest value using `max()`. Then I created a new list containing only the elements that were not equal to that maximum value.
+
+Key idea: Finding extreme values and filtering a list while preserving the original list.
+
+### Task 10 — Sort numbers by their last digit
+
+I used Python’s `sorted()` function with a key based on the remainder after division by 10. This allowed me to sort the numbers by their final digit in ascending and descending order.
+
+Key idea: Custom sorting using a key function rather than sorting by the complete numerical value.
+
+### Task 11 — Use set comprehension for numbers divisible by 3 or 7
+
+I used set comprehension to generate numbers within the specified range that satisfy the condition of being divisible by 3 or 7.
+
+Key idea: Combining a compact collection-building expression with logical conditions. A set also stores each distinct value only once.
+
+### Task 12 — Count characters using a dictionary
+
+I created a dictionary in which each character is a key and its frequency is the corresponding value. I updated the count whenever a character appeared again.
+
+Key idea: Using key-value pairs to summarize and count occurrences in text.
+
+### Task 13 — Find a capitalized word shorter than five characters
+
+I used a regular expression to search for a word beginning with an uppercase English letter and containing between one and four additional characters, giving a total length of two to four characters in the pattern shown in my notebook.
+
+Key idea: Using pattern matching to find text that meets specified rules.
+
+### Task 14 — Extract parts of a full name using a regular expression
+
+I used a regular expression with capturing groups to identify the surname, first name, and patronymic in a name written after the label “Full Name:”. I then printed each component separately.
+
+Key idea: Extracting structured information from a text string using pattern matching and capturing groups.
+
+## Short conclusion
+
+“To conclude, this assignment helped me understand how Python can solve different types of problems using simple but powerful programming techniques. I also learned that choosing the appropriate method—whether arithmetic operations, loops, functions, slicing, dictionaries, or regular expressions—makes code clearer and more efficient. These fundamentals will support my further work in data analysis, mathematical modelling, and machine learning.”
+
+## If the professor asks what you learned most
+
+You can say:
+
+“The most important lesson for me was learning to break a problem into smaller steps, select the appropriate Python technique, and test the result. I also saw how these basic techniques can be applied to practical tasks such as data cleaning, frequency counting, and extracting structured information.”

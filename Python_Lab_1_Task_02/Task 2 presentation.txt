@@ -1,0 +1,87 @@
+## Introduction
+
+“Good morning, Professor. 
+
+In Task 2, I used NumPy to solve a series of exercises involving array creation, random number generation, mathematical operations, matrix calculations, statistical measures, sorting, and saving and loading data. I will briefly explain the method I used for each assigned task.”
+
+Explain the purpose of each function rather than reading the code aloud. For example, say, “I used `axis=0` because I wanted the mean of each column.”
+
+You can say:
+
+“The key lesson was understanding how to move from individual calculations to vectorised computation. NumPy allows us to perform mathematical and statistical operations on entire arrays efficiently, which becomes especially valuable when working with large datasets and computational models.”
+
+## Explanation according to my task numbers
+
+### Task 4 — Create a vector of zeros
+
+I used `np.zeros()` to create a one-dimensional array containing five zeros. I specified the integer data type so that the values would appear as integers rather than decimal numbers.
+
+What this demonstrates: Creating and controlling the data type of a NumPy array.
+
+### Task 8 — Create a two-dimensional normally distributed array
+
+I used `np.random.normal()` with a mean of zero, a standard deviation of one, and a shape of three rows by four columns. I also set a random seed so the results could be reproduced.
+
+What this demonstrates: Generating random data that follows a normal distribution, which is useful in statistical modelling and simulation.
+
+### Task 11 — Perform arithmetic operations on arrays
+
+I created two arrays with the same shape and performed addition, subtraction, element-wise multiplication, and division.
+
+What this demonstrates: NumPy can perform mathematical operations across entire arrays efficiently, without requiring a separate loop for each element.
+
+### Task 17 — Calculate the infinity norm
+
+I used `np.linalg.norm()` with `ord=np.inf` to calculate the infinity norm of a vector. This gives the largest absolute value among its elements.
+
+What this demonstrates: Measuring the magnitude of a vector, a concept used in numerical analysis and computational mathematics.
+
+### Task 19 — Perform matrix operations
+
+I created two compatible matrices and used `np.dot()` to calculate their matrix product. Each output element is obtained by multiplying corresponding row and column elements and adding the products.
+
+What this demonstrates: Applying matrix multiplication, which is fundamental to linear algebra, mathematical modelling, and machine learning.
+
+### Task 27 — Calculate mean, variance, and median
+
+I used `np.mean()`, `np.var()`, and `np.median()` to calculate three statistical measures for a numerical dataset. The mean represents the average, the variance measures how spread out the values are, and the median represents the middle value after sorting.
+
+What this demonstrates: Summarising numerical data using descriptive statistics.
+
+### Task 28 — Count elements within a specified interval
+
+I used a Boolean mask to identify values between negative five and positive five, then applied `np.count_nonzero()` to count how many elements satisfied the condition.
+
+What this demonstrates: Combining logical conditions with vectorised operations to filter and count data efficiently.
+
+### Task 33 — Add column means to a matrix
+
+I used `np.mean()` with `axis=0` to calculate the mean of each column. I then used `np.vstack()` to append those means as a new row beneath the original matrix.
+
+What this demonstrates: Applying aggregation across a chosen axis and combining arrays with compatible dimensions.
+
+### Task 38 — Sort all elements of an array
+
+I used `np.sort()` with `axis=None`. This treats the array as a flattened sequence and returns all its elements in ascending order.
+
+What this demonstrates: Sorting multidimensional data as one sequence, rather than sorting each row or column separately.
+
+### Task 42 — Save and load an array
+
+I used `np.savetxt()` to save the array to a text file and `np.loadtxt()` to load it back into Python. I then displayed the loaded array to verify that the data was retrieved.
+
+What this demonstrates: Basic data persistence—storing computational results and recovering them for later use.
+
+## Conclusion
+
+“To conclude, these exercises helped me understand how NumPy supports efficient numerical computation. I practised working with arrays and matrices, applying statistical methods, and storing results. I also learned the importance of reproducibility through random seeds and of selecting the correct axis and operation when working with multidimensional data. These skills are directly relevant to my studies in computational modelling, data analysis, and machine learning.”
+
+## If your Professor asks what was most important
+
+
+Explain the purpose of each function rather than reading the code aloud. For example, say, “I used `axis=0` because I wanted the mean of each column.”
+
+
+You can say:
+
+“The key lesson was understanding how to move from individual calculations to vectorised computation. NumPy allows us to perform mathematical and statistical operations on entire arrays efficiently, which becomes especially valuable when working with large datasets and computational models.”
