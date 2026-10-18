@@ -67,6 +67,7 @@ Open the relevant `.ipynb` file using Jupyter Notebook, JupyterLab, or Google Co
 - **Programme:** MSc Computational Modeling in Technology and Finance
 - **Course:** Modern Data Analysis
 - **Author:** Oluwasomidotun Odumosu
+- **Official Student Email:** [odumosu@sfedu.ru](mailto:odumosu@sfedu.ru)
 
 ## Academic and Reproducibility Notes
 
