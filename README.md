@@ -1,65 +1,75 @@
-# SFedU - Modern Data Analysis
+# Modern Data Analysis - Southern Federal University (SFedU)
 
-## Overview
+A collection of practical assignments, Jupyter notebooks, and supporting materials completed for the **Modern Data Analysis** course at Southern Federal University (SFedU).
 
-This repository contains my coursework and practical assignments for the **Modern Data Analysis** course at Southern Federal University (SFedU).
+The repository documents my practical work in Python programming, numerical computing, data manipulation, exploratory data analysis, and statistical visualization as part of my MSc studies.
 
-The work focuses on Python-based data analysis, numerical computing, data manipulation, exploratory analysis, and statistical visualization.
+## About the Project
 
-## Objectives
+This repository serves as an academic portfolio of my coursework and practical development in data analysis. It brings together assignment notebooks, submission documents, course references, and presentation notes where available.
+
+The objectives are to:
 
 - Apply Python libraries to practical data analysis problems.
 - Perform numerical calculations and data manipulation.
-- Explore datasets using descriptive statistics.
-- Communicate analytical findings through clear visualizations.
-- Maintain organized, reproducible, and well-documented notebooks.
+- Explore datasets using descriptive statistics and analytical methods.
+- Communicate analytical results through clear visualizations.
+- Develop organized, reproducible, and well-documented analytical workflows.
 
 ## Technologies
 
-- Python
-- NumPy
-- pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- **Python** - programming and analysis
+- **NumPy** - numerical computing
+- **pandas** - data manipulation and analysis
+- **Matplotlib** - data visualization
+- **Seaborn** - statistical visualization
+- **Jupyter Notebook** - interactive analysis and documentation
 
 ## Repository Structure
 
 | Directory | Contents |
 |---|---|
-| `Python_Lab_0_Task_01/` | Python assignment files |
-| ` Python_Lab_1_Task_02/` | Python assignment files |
-| `Pandas_Lab_3_Task_03/` | Pandas laboratory exercises |
-| ` Matplotlib_Pyplot_Task_04/` | Matplotlib assignment files |
-| ` Seaborn_Pydata_Task_04/` | Seaborn assignment files |
-| ` Pandas_Data_Visualization_Task_04/` | Pandas Data Visualization assignment files |
-| `assets/` | Selected figures used in documentation |
-| `assets/figures/` | Selected figures used in documentation |
+| `Python_Lab_0_Task_01/` | Python Lab 0 notebook, assignment PDF, and supporting materials |
+| `Python_Lab_1_Task_02/` | Python Lab 1 notebook, submission PDF, presentation notes, and references |
+| `Pandas_Lab_3_Task_03/` | Pandas Lab 3 notebooks, submission PDFs, and course references |
+| `Matplotlib_Pyplot_Task_04/` | Matplotlib and visualization notebooks and supporting PDFs |
+| `Pandas_Data_Visualization_Task_04/` | Reserved for future coursework |
+| `Seaborn_Pydata_Task_04/` | Reserved for future coursework |
+| `assets/` | Reserved for supporting project assets |
+| `assets_figures/` | Reserved for figures used in documentation |
 
-Directory names and contents will be updated as additional assignments are added.
+Additional coursework and supporting materials will be added as the course progresses.
 
 ## Getting Started
 
-1. Clone this repository.
-2. Install the required Python packages.
-3. Open the relevant notebook in Jupyter Notebook, JupyterLab, or Google Colab.
-4. Run the notebook cells in order.
+### 1. Clone the repository
 
-Install the packages locally with:
+```bash
+git clone https://github.com/dotunodomosu/SFedU-Modern-Data-Analysis.git
+cd SFedU-Modern-Data-Analysis
+```
+
+### 2. Install dependencies
+
+Ensure Python and `pip` are installed, then run:
 
 ```bash
 pip install -r requirements.txt
 ```
 
+### 3. Open a notebook
+
+Open the relevant `.ipynb` file using Jupyter Notebook, JupyterLab, or Google Colab. Run cells in order and check any required file paths before executing the analysis.
+
 ## Academic Context
 
-**Institution:** Southern Federal University (SFedU)  
-**Program:** MSC Computational Modeling in Technology and Finance  
-**Course:** Modern Data Analysis  
-**Author:** Oluwasomidotun Odumosu
+- **Institution:** Southern Federal University (SFedU)
+- **Programme:** MSc Computational Modeling in Technology and Finance
+- **Course:** Modern Data Analysis
+- **Author:** Oluwasomidotun Odumosu
 
-## Notes
+## Academic and Reproducibility Notes
 
-Each assignment include its objective, implementation, relevant outputs, and a concise conclusion. Numerical results and visualizations are strictly checked before being presented as verified findings.
+The notebooks and documents are organized to support learning, review, and reproducibility. Results should be interpreted in the context of each assignment, its data, assumptions, and methodology.
 
-This repository is treated as an academic portfolio, technical documentation, and professional development.
+This repository is maintained as an academic coursework portfolio and a record of my ongoing technical development.
